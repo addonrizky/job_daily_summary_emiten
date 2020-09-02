@@ -7,7 +7,7 @@ try:
                                          user='rizkyaddon',
                                          password='Jakarta123!')
 
-    sql_select_Query = "select * from list_saham where kode_saham = 'PGAS'"
+    sql_select_Query = "select * from list_saham"
     cursor = connection.cursor()
     cursor.execute(sql_select_Query)
     records = cursor.fetchall()
