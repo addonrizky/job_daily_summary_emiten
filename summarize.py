@@ -2,9 +2,9 @@ import mysql.connector
 from mysql.connector import Error
 
 try:
-    connection = mysql.connector.connect(host='178.128.208.156',
+    connection = mysql.connector.connect(host='localhost',
                                          database='saham',
-                                         user='rizkyaddon',
+                                         user='root',
                                          password='Jakarta123!')
 
     sql_select_Query = "select * from list_saham"
